@@ -16,16 +16,17 @@ body {
 <<<<<<< HEAD
 #zdjecie {
   text-align: center; }
-#zdjecie img {
-	width: 200px;
-	height: 200px;
-	border-radius: 100px;
-	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
+.okragle {
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
 	}
 .srodkowanie {
   text-align: center; }
-
+.przycisk {
+  padding-top: 5px;}
 
 /* menu fixed */
 .navbar-fixed-top.scrolling {
@@ -34,7 +35,8 @@ body {
     left: 0;
     right: 0;
 }
-
+.popek {
+  margin-top: 5px; }
 
 article,
 aside,
@@ -4883,6 +4885,7 @@ a.badge:focus {
 .jumbotron {
   padding: 30px 15px;
   margin-bottom: 30px;
+  margin-top: 100px;
   color: inherit;
   background-color: #eee;
 }
